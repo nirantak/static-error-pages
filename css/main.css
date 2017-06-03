@@ -1,0 +1,15 @@
+body,
+.jumbotron {
+    background-color: #E0E0E0;
+}
+
+.navbar {
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    border-radius: 0;
+    margin: 0;
+}

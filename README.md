@@ -1,2 +1,3 @@
 # heroku-errorpages
-* custom error-pages for heroku app
+
+* custom error-pages for heroku apps

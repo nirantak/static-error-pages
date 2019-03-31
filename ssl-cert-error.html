@@ -1,66 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nirantak Raghav" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://bootswatch.com/3/yeti/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Error</title>
+    <meta name="theme-color" content="#464b50" />
+    <style>
+      body,
+      .jumbotron {
+        background-color: #e0e0e0;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="Nirantak Raghav" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" href="images/favicon.ico" />
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
-  <title>Error</title>
-  <meta name="theme-color" content="#464b50">
-</head>
+      .navbar {
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+      }
 
-<body>
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://nirantak.com/" target="_blank" rel="noopener">Nirantak Raghav</a>
+      .jumbotron {
+        border-radius: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a
+            class="navbar-brand"
+            href="https://nirantak.com/"
+            target="_blank"
+            rel="noopener"
+            >Nirantak Raghav</a
+          >
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a
+                href="https://github.com/nirantak/"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github fa-lg"></i>&nbsp;&nbsp;GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/nirantakr/"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-twitter fa-lg"></i>&nbsp;&nbsp;Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:me@nirantak.com?subject=Feedback"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-envelope fa-lg"></i>&nbsp;&nbsp;Email</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="https://github.com/nirantak/" target="_blank" rel="noopener">
-              <i class="fa fa-github fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;GitHub</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/_nirantak/" target="_blank" rel="noopener">
-              <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Twitter</a>
-          </li>
-          <li>
-            <a href="mailto:me@nirantak.com?subject=Feedback" target="_blank" rel="noopener">
-              <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;Email</a>
-          </li>
-        </ul>
+    </nav>
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1>SSL certificate error</h1>
+        <p>Oops! <br />We'll fix this as soon as possible</p>
+        <div class="heroku-message" style="display: none;">
+          <h4>SSL certificate error</h4>
+          <p>
+            There is conflicting information between the SSL connection, its
+            certificate and/or the included HTTP requests.
+          </p>
+        </div>
       </div>
     </div>
-  </nav>
-  <div class="jumbotron text-center">
-    <div class="container">
-      <h1> SSL certificate error </h1>
-      <p>Oops!
-        <br>We'll fix this as soon as possible
-      </p>
-      <div class="heroku-message" style="display: none;">
-        <h4> SSL certificate error </h4>
-        <p> There is conflicting information between the SSL connection, its certificate and/or the included HTTP requests. </p>
-      </div>
+    <div class="progress">
+      <div
+        class="progress-bar progress-bar-success progress-bar-striped active"
+        style="width:50%;"
+      ></div>
     </div>
-  </div>
-  <div class="progress">
-    <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;"></div>
-  </div>
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-</body>
-
+  </body>
 </html>

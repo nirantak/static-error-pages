@@ -1,8 +1,8 @@
-# Heroku errorpages
+# Static Error Pages
 
-### Custom error-pages for Heroku apps
+> _Custom static error pages for hosted apps_
 
-* [Application Error](https://nirantak.github.io/heroku_errorpages/application-error.html)
-* [Maintenance Mode](https://nirantak.github.io/heroku_errorpages/maintenance-mode.html)
-* [No Such App](https://nirantak.github.io/heroku_errorpages/no-such-app.html)
-* [SSL Cert Error](https://nirantak.github.io/heroku_errorpages/ssl-cert-error.html)
+- [Application Error](https://nirantak.github.io/static-error-pages/application-error.html)
+- [Maintenance Mode](https://nirantak.github.io/static-error-pages/maintenance-mode.html)
+- [No Such App](https://nirantak.github.io/static-error-pages/no-such-app.html)
+- [SSL Cert Error](https://nirantak.github.io/static-error-pages/ssl-cert-error.html)
